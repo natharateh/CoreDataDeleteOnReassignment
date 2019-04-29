@@ -13,6 +13,13 @@
 		7A59CF5B227798B400EEEC9A /* CoreDataDeleteOnReassignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A59CF59227798B400EEEC9A /* CoreDataDeleteOnReassignment.xcdatamodeld */; };
 		7A59CF5D227798B600EEEC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A59CF5C227798B600EEEC9A /* Assets.xcassets */; };
 		7A59CF60227798B600EEEC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A59CF5E227798B600EEEC9A /* LaunchScreen.storyboard */; };
+		7A59CF682277992800EEEC9A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59CF672277992800EEEC9A /* ModelController.swift */; };
+		7A66BBBA22779B7100574288 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66BBB622779B7100574288 /* Person+CoreDataClass.swift */; };
+		7A66BBBB22779B7100574288 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66BBB722779B7100574288 /* Person+CoreDataProperties.swift */; };
+		7A66BBBC22779B7100574288 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66BBB822779B7100574288 /* Group+CoreDataClass.swift */; };
+		7A66BBBD22779B7100574288 /* Group+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66BBB922779B7100574288 /* Group+CoreDataProperties.swift */; };
+		7A66BBC02277AA8100574288 /* TableViewSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A66BBBE2277AA8100574288 /* TableViewSectionHeaderView.swift */; };
+		7A66BBC12277AA8100574288 /* TableViewSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A66BBBF2277AA8100574288 /* TableViewSectionHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		7A59CF5C227798B600EEEC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A59CF5F227798B600EEEC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A59CF61227798B600EEEC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A59CF672277992800EEEC9A /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		7A66BBB622779B7100574288 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A66BBB722779B7100574288 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A66BBB822779B7100574288 /* Group+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A66BBB922779B7100574288 /* Group+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A66BBBE2277AA8100574288 /* TableViewSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionHeaderView.swift; sourceTree = "<group>"; };
+		7A66BBBF2277AA8100574288 /* TableViewSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewSectionHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,14 @@
 			isa = PBXGroup;
 			children = (
 				7A59CF52227798B400EEEC9A /* AppDelegate.swift */,
+				7A59CF672277992800EEEC9A /* ModelController.swift */,
+				7A66BBB622779B7100574288 /* Person+CoreDataClass.swift */,
+				7A66BBB722779B7100574288 /* Person+CoreDataProperties.swift */,
+				7A66BBB822779B7100574288 /* Group+CoreDataClass.swift */,
+				7A66BBB922779B7100574288 /* Group+CoreDataProperties.swift */,
 				7A59CF54227798B400EEEC9A /* ViewController.swift */,
+				7A66BBBE2277AA8100574288 /* TableViewSectionHeaderView.swift */,
+				7A66BBBF2277AA8100574288 /* TableViewSectionHeaderView.xib */,
 				7A59CF56227798B400EEEC9A /* Main.storyboard */,
 				7A59CF5C227798B600EEEC9A /* Assets.xcassets */,
 				7A59CF5E227798B600EEEC9A /* LaunchScreen.storyboard */,
@@ -128,6 +149,7 @@
 				7A59CF60227798B600EEEC9A /* LaunchScreen.storyboard in Resources */,
 				7A59CF5D227798B600EEEC9A /* Assets.xcassets in Resources */,
 				7A59CF58227798B400EEEC9A /* Main.storyboard in Resources */,
+				7A66BBC12277AA8100574288 /* TableViewSectionHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +161,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A59CF55227798B400EEEC9A /* ViewController.swift in Sources */,
+				7A66BBBD22779B7100574288 /* Group+CoreDataProperties.swift in Sources */,
+				7A59CF682277992800EEEC9A /* ModelController.swift in Sources */,
+				7A66BBBB22779B7100574288 /* Person+CoreDataProperties.swift in Sources */,
+				7A66BBBC22779B7100574288 /* Group+CoreDataClass.swift in Sources */,
+				7A66BBBA22779B7100574288 /* Person+CoreDataClass.swift in Sources */,
 				7A59CF5B227798B400EEEC9A /* CoreDataDeleteOnReassignment.xcdatamodeld in Sources */,
 				7A59CF53227798B400EEEC9A /* AppDelegate.swift in Sources */,
+				7A66BBC02277AA8100574288 /* TableViewSectionHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
